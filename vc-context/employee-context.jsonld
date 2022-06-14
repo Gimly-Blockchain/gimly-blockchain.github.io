@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "Employee": {
+      "@id": "https://vc-context.s3.eu-west-2.amazonaws.com/employee-context#Employee",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "emp": "https://vc-context.s3.eu-west-2.amazonaws.com/employee-context#",
+        "schema": "https://schema.org/",
+        "firstName": "emp:firstName",
+        "lastName": "emp:lastName",
+      }
+    }
+  }
+}
