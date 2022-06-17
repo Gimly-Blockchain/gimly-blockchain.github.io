@@ -3,8 +3,8 @@
     "@version": 1.1,
     "@protected": true,
 
-    "Employee": {
-      "@id": "https://gimly-blockchain.github.io/vc-contexts/hotel-guest-context#Employee",
+    "HotelGuest": {
+      "@id": "https://gimly-blockchain.github.io/vc-contexts/hotel-guest-context#HotelGuest",
       "@context": {
         "@version": 1.1,
         "@protected": true,
