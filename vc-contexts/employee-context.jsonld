@@ -2,7 +2,7 @@
   "@context": {
     "@version": 1.1,
     "@protected": true,
-
+​
     "Employee": {
       "@id": "https://gimly-blockchain.github.io/vc-contexts/employee-context#Employee",
       "@context": {
@@ -15,6 +15,7 @@
         "firstName": "emp:firstName",
         "lastName": "emp:lastName",
         "email": "emp:email",
+        "securityClearanceLevel": "emp:securityClearanceLevel",
         "department": "emp:department",
         "phone": "emp:phone",
         "address": "emp:address"
