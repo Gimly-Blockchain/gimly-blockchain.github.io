@@ -2,7 +2,6 @@
   "@context": {
     "@version": 1.1,
     "@protected": true,
-
     "HotelGuest": {
       "@id": "https://gimly-blockchain.github.io/vc-contexts/hotel-guest-context#HotelGuest",
       "@context": {
