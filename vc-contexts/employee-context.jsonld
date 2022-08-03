@@ -11,6 +11,7 @@
         "type": "@type",
         "emp": "https://gimly-blockchain.github.io/vc-contexts/employee-context#",
         "schema": "https://schema.org/",
+        "companyName": "emp:companyName",
         "firstName": "emp:firstName",
         "lastName": "emp:lastName",
         "email": "emp:email",
