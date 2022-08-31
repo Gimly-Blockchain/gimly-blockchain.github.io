@@ -18,7 +18,8 @@
         "securityClearanceLevel": "emp:securityClearanceLevel",
         "department": "emp:department",
         "phone": "emp:phone",
-        "address": "emp:address"
+        "address": "emp:address",
+        "role": "emp:role"
       }
     }
   }
