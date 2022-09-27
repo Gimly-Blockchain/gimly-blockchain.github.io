@@ -3,13 +3,13 @@
       "@version": 1.1,
       "@protected": true,
       "Payment": {
-        "@id": "https://gimly-blockchain.github.io/vc-contexts/payment-context#Payment",
+        "@id": "https://gimly-blockchain.github.io/vc-contexts/card-context#Payment",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "htl": "https://gimly-blockchain.github.io/vc-contexts/payment-context#",
+          "htl": "https://gimly-blockchain.github.io/vc-contexts/card-context#",
           "schema": "https://schema.org/",
           "brand": "htl:brand",
           "number": "htl:number",
