@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "Health": {
+      "@id": "https://gimly-blockchain.github.io/vc-contexts/health-context#Health",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "htl": "https://gimly-blockchain.github.io/vc-contexts/health-context#",
+        "schema": "https://schema.org/",
+        "healthConditions": "htl:healthConditions",
+        "bloodType": "htl:bloodType",
+        "emergencyContact": "htl:emergencyContact",
+        "emergencyContactNumber": "htl:emergencyContactNumber",
+        "covidVaccinationDose": "htl:covidVaccinationDose",
+        "covidVaccinationBrand": "htl:covidVaccinationBrand",
+        "covidVaccinationDate": "htl:covidVaccinationDate",
+        "covidVaccinationCountry": "htl:covidVaccinationCountry"
+      }
+    }
+  }
+}
