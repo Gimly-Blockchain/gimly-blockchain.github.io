@@ -11,7 +11,7 @@
         "type": "@type",
         "htl": "https://gimly-blockchain.github.io/vc-contexts/payment-context#",
         "schema": "https://schema.org/",
-        "type": "htl:type",
+        "brand": "htl:brand",
         "number": "htl:number",
         "nameOnCard": "htl:nameOnCard",
         "expDate": "htl:expDate",
