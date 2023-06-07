@@ -18,6 +18,7 @@
         "address": "htl:address",
         "roomType": "htl:roomType",
         "roomNumber": "htl:roomNumber",
+        "roomKey": "htl:roomKey",
         "checkIn": "htl:checkIn",
         "checkOut": "htl:checkOut"
       }
