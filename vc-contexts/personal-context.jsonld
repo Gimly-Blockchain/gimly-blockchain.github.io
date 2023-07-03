@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "PersonalInformation": {
+      "@id": "https://gimly-blockchain.github.io/vc-contexts/personal-context#PersonalInformation",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "per": "https://gimly-blockchain.github.io/vc-contexts/personal-context#",
+        "schema": "https://schema.org/",
+        "firstName": "per:firstName",
+        "lastName": "per:lastName",
+        "birthDay": "per:birthDay"
+      }
+    }
+  }
+}

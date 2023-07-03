@@ -1,0 +1,10 @@
+{
+  "applinks": {
+      "details": [
+      {
+        "appID": "7UU58CB9KL.com.gimly-id.sdk",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
