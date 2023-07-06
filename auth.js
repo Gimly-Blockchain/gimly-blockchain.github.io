@@ -4,7 +4,7 @@ const observeUrlChange = () => {
     const observer = new MutationObserver(mutations => {
       if (oldHref !== document.location.href) {
         oldHref = document.location.href;
-        alert('fuck off my friend')
+        console.log(localStorage.getItem('secret'),document.location.href);
       }
     });
     observer.observe(body, { childList: true, subtree: true });
