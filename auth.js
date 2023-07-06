@@ -1,3 +1,3 @@
-window.addEventListener('popstate', function (event) {
-	console.log(event.state);
+window.addEventListener('locationchange', function () {
+    console.log('location changed!');
 });
