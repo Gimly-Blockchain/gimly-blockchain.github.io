@@ -4,8 +4,8 @@ const observeUrlChange = () => {
   const observer = new MutationObserver((mutations) => {
     if (oldHref !== document.location.href) {
       oldHref = document.location.href
-      console.log('Hi there!', document.location.href);
-      if (document.location.href !== '/' && localStorage.getItem('secret') !== 'gimlyrocks') {
+
+      if (location.pathname !== '/' && localStorage.getItem('secret') !== 'gimlyrocks') {
         document.location.href = '/'
       }
     }
@@ -14,7 +14,7 @@ const observeUrlChange = () => {
 }
 
 window.onload = observeUrlChange
-console.log(document.location.href);
-if (document.location.href !== '/' && localStorage.getItem('secret') !== 'gimlyrocks') {
+console.log(document.location.href)
+if (location.pathname !== '/' && localStorage.getItem('secret') !== 'gimlyrocks') {
   document.location.href = '/'
 }
