@@ -14,7 +14,9 @@ const observeUrlChange = () => {
 }
 
 window.onload = observeUrlChange
+
 console.log(document.location.href)
-if (location.pathname !== '/' && localStorage.getItem('secret') !== 'gimlyrocks') {
+
+/*if (location.pathname !== '/' && localStorage.getItem('secret') !== 'gimlyrocks') {
   document.location.href = '/'
-}
+}*/
