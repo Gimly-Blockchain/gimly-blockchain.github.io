@@ -105,8 +105,14 @@
             var password = document.querySelectorAll('[data-id="password"]')
 
             function login(secret) {
-                var hash = sha1(secret);
+                console.log('login', secret)
+                if (secret === 'gimlyrocks') {
                 localStorage.setItem('secret', secret);
+                setTimeout(() => {
+                    console.log('it works!');
+                    //location.href = '/docs/basics/introduction'
+                }, 200)
+                }
             }
 
             button[0].addEventListener("click", function () {
