@@ -1,0 +1,12 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:web:gimly-blockchain.github.io",
+  "publicKey": [
+    {
+      "id": "did:web:gimly-blockchain.github.io#04e3040ab78d7c76305688e033ea46e1afffb46a355546efcde4af2b696c1081c315e6362a7d3d6c3689d4ed7545d20062a9ff51cceb5d14c5edad23b0fa5088f3",
+      "type": "Secp256k1",
+      "controller": "did:web:gimly-blockchain.github.io",
+      "publicKeyHex": "04e3040ab78d7c76305688e033ea46e1afffb46a355546efcde4af2b696c1081c315e6362a7d3d6c3689d4ed7545d20062a9ff51cceb5d14c5edad23b0fa5088f3"
+    }
+  ]
+}
