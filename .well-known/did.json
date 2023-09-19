@@ -2,11 +2,11 @@
   "@context": "https://w3id.org/did/v1",
   "id": "did:web:gimly-blockchain.github.io",
   "publicKey": [
-      {
-          "id": "did:web:gimly-blockchain.github.io#04244fc6dfd4c6b4da7a12685c55978db32f46e79a3114c6594249bdaef4f349292a843c2577040f970f1c87271f759fc56fa0c6a1deeba5019ae85858448202b7",
-          "type": "Ed25519VerificationKey2018",
-          "controller": "did:web:gimly-blockchain.github.io",
-          "publicKeyHex": "04244fc6dfd4c6b4da7a12685c55978db32f46e79a3114c6594249bdaef4f349292a843c2577040f970f1c87271f759fc56fa0c6a1deeba5019ae85858448202b7"
-      }
+    {
+      "id": "did:web:gimly-blockchain.github.io#04244fc6dfd4c6b4da7a12685c55978db32f46e79a3114c6594249bdaef4f349292a843c2577040f970f1c87271f759fc56fa0c6a1deeba5019ae85858448202b7",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:gimly-blockchain.github.io",
+      "publicKeyHex": "04244fc6dfd4c6b4da7a12685c55978db32f46e79a3114c6594249bdaef4f349292a843c2577040f970f1c87271f759fc56fa0c6a1deeba5019ae85858448202b7"
+    }
   ]
 }
