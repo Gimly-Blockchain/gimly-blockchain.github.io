@@ -1,12 +1,30 @@
 {
-  "@context": "https://w3id.org/did/v1",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
   "id": "did:web:gimly-blockchain.github.io",
-  "publicKey": [
-      {
-          "id": "did:web:gimly-blockchain.github.io#1f7b1af0c2f5100eb197bb6c32bd6d372d5dea9f0c7edef38191dae8ff0a3ae4",
-          "type": "Ed25519VerificationKey2018",
-          "controller": "did:web:gimly-blockchain.github.io",
-          "publicKeyHex": "1f7b1af0c2f5100eb197bb6c32bd6d372d5dea9f0c7edef38191dae8ff0a3ae4"
+  "controller": ["did:web:gimly-blockchain.github.io"],
+  "verificationMethod": [
+    {
+      "id": "did:web:gimly-blockchain.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:gimly-blockchain.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "49gMtPC0ytHAyIz6OCDQT/NkqsO7t7K53Onbib6MiSA=",
+        "y": "5AzoswTqGkDLGEsKdHBvCO2TENQNC1hfP+4hUjd8l0s="
       }
+    }
+  ],
+  "authentication": ["did:web:gimly-blockchain.github.io#owner"],
+  "assertionMethod": ["did:web:gimly-blockchain.github.io#owner"],
+  "service": [
+    {
+      "id": "did:web:gimly-blockchain.github.io#service-0",
+      "type": "oidc-credential-offer",
+      "serviceEndpoint": "https://gimly-did-provider.gcg5hrhfbmgwbydb.eastus.azurecontainer.io:8080/login"
+    }
   ]
 }
