@@ -1,41 +1,29 @@
 {
-  "did": {
-    "@context": [
-      "https://www.w3.org/ns/did/v1",
-      "https://w3id.org/security/suites/jws-2020/v1"
-    ],
-    "id": "did:web:gimly-blockchain.github.io",
-    "controller": ["did:web:gimly-blockchain.github.io"],
-    "verificationMethod": [
-      {
-        "id": "did:web:gimly-blockchain.github.io#owner",
-        "type": "JsonWebKey2020",
-        "controller": "did:web:gimly-blockchain.github.io",
-        "publicKeyJwk": {
-          "kty": "EC",
-          "crv": "ed25519",
-          "x": "Tql7Vc7pB5NwEzd3tpurZnnAp1ooUhKs+bzK6rmsD5o=",
-          "y": "X71zOx1QP/xVTC6NAbjdKB82bIjkDXfNwT43oYr6jdQ="
-        }
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:gimly-blockchain.github.io",
+  "controller": ["did:web:gimly-blockchain.github.io"],
+  "verificationMethod": [
+    {
+      "id": "did:web:gimly-blockchain.github.io#owner",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:gimly-blockchain.github.io",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "8VA7w0M9HU0/5xhWjwM7bQZoVcUycNSGPTbP6r/harc="
       }
-    ],
-    "authentication": ["did:web:gimly-blockchain.github.io#owner"],
-    "assertionMethod": ["did:web:gimly-blockchain.github.io#owner"],
-    "service": [
-      {
-        "id": "did:web:gimly-blockchain.github.io#service-0",
-        "type": "oidc-credential-offer",
-        "serviceEndpoint": "https://gimly-did-provider.gcg5hrhfbmgwbydb.eastus.azurecontainer.io:8080/login"
-      }
-    ]
-  },
-  "key": {
-    "key": "d3ff86189c81ad3181945aba4ee013d51e8a83624909b148e49ab1be7fb2b0e1",
-    "publicHex": "044ea97b55cee9079370133777b69bab6679c0a75a285212acf9bccaeab9ac0f9a5fbd733b1d503ffc554c2e8d01b8dd281f366c88e40d77cdc13e37a18afa8dd4",
-    "xHex": "4ea97b55cee9079370133777b69bab6679c0a75a285212acf9bccaeab9ac0f9a",
-    "yHex": "5fbd733b1d503ffc554c2e8d01b8dd281f366c88e40d77cdc13e37a18afa8dd4",
-    "xBase64": "Tql7Vc7pB5NwEzd3tpurZnnAp1ooUhKs+bzK6rmsD5o=",
-    "yBase64": "X71zOx1QP/xVTC6NAbjdKB82bIjkDXfNwT43oYr6jdQ=",
-    "kty": "EC, crv: ed25519"
-  }
+    }
+  ],
+  "authentication": ["did:web:gimly-blockchain.github.io#owner"],
+  "assertionMethod": ["did:web:gimly-blockchain.github.io#owner"],
+  "service": [
+    {
+      "id": "did:web:gimly-blockchain.github.io#service-0",
+      "type": "oidc-credential-offer",
+      "serviceEndpoint": "https://gimly-did-provider.gcg5hrhfbmgwbydb.eastus.azurecontainer.io:8080/login"
+    }
+  ]
 }
