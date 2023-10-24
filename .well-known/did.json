@@ -13,7 +13,7 @@
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "8VA7w0M9HU0/5xhWjwM7bQZoVcUycNSGPTbP6r/harc="
+        "x": "/NxLUdkBoLqJOWNdwOUKCkwyZq3ILfguQU4Uuj6hErE="
       }
     }
   ],
@@ -22,8 +22,12 @@
   "service": [
     {
       "id": "did:web:gimly-blockchain.github.io#service-0",
-      "type": "oidc-credential-offer",
-      "serviceEndpoint": "https://gimly-did-provider.gcg5hrhfbmgwbydb.eastus.azurecontainer.io:8080/login"
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origin": [
+          "http://gimly-did-provider.gcg5hrhfbmgwbydb.eastus.azurecontainer.io:8080/login"
+        ]
+      }
     }
   ]
 }
